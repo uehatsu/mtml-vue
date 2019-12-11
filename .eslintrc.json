@@ -8,7 +8,9 @@
     "@vue/airbnb",
     "@vue/typescript"
   ],
-  "rules": {},
+  "rules": {
+    "import/no-extraneous-dependencies": "off"
+  },
   "parserOptions": {
     "parser": "@typescript-eslint/parser"
   },
